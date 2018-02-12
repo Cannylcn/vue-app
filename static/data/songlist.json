@@ -1,0 +1,7 @@
+[
+  {"id": 1, "name": "Here with you", "singer": "Asher Book", "src": "./static/music/music.mp3", "coverUrl": "./static/images/cover-1.jpg"},
+  {"id": 2, "name": "Please Don't Go", "singer": "Joel Adams", "src": "./static/music/music-1.mp3", "coverUrl": "./static/images/cover-2.jpg"},
+  {"id": 3, "name": "全部都是你", "singer": "Dragon Pig/CNBALLER/ACLOUD WANG", "src": "./static/music/music-2.mp3", "coverUrl": "./static/images/cover-3.jpg"},
+  {"id": 4, "name": "再也没有", "singer": "Ryan.B/AY楊佬叁", "src": "./static/music/music-3.mp3", "coverUrl": "./static/images/cover-4.jpg"},
+  {"id": 5, "name": "最美情侣", "singer": "白小白", "src": "./static/music/music-4.mp3", "coverUrl": "./static/images/cover-5.jpg"}
+]

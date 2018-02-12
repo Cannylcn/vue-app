@@ -1,0 +1,85 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/typography";
+$color: #2c3e50;
+html,body{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+html{
+  font: 14px -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  color: $color;
+}
+//link-colors($normal, $hover, $active, $visited, $focus);
+$normal: #fff;
+$hover: inherit;
+$active: inherit;
+$visited: inherit;
+$focus: inherit;
+a{
+  @include link-colors($normal, $hover, $active, $visited, $focus);
+  text-decoration: none;
+}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  background: none;
+  text-decoration: none;
+}
+*{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app{
+  //padding-top: 46px;
+  //position: relative;
+  height: 100%;
+  .vux-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #d43c33;
+  }
+}
+/*[class^="weui-icon-"]:before, [class*=" weui-icon-"]:before{
+  margin-top: .4em;
+}
+.weui-search-bar{
+  padding: 0!important;
+}*/
+.vux-search-box{
+  overflow: hidden;
+}
+.weui-search-bar__form{
+  margin-left: 15%;
+  margin-right: 15%;
+  transition: all 0.3s;
+}
+.focus{
+  .weui-search-bar__form{
+    margin-left: 2%;
+  }
+  .weui-search-bar__cancel-btn{
+    transform: translate3d(-55%, 0, 0);
+  }
+}
+.weui-search-bar__cancel-btn{
+  position: absolute;
+  right: 0;
+  transition: all 0.3s;
+  display: block!important;
+  transform: translate3d(100%, 0, 0);
+  color: #09BB07!important;
+}
+//.weui-search-bar{
+//  padding: 0!important;
+//  background: #d43c33!important;
+//}

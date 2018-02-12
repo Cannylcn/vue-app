@@ -1,0 +1,17 @@
+[
+  {"id": 1, "name": "Here with you", "singer": "Asher Book", "src": "./static/music/music.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 2, "name": "全部都是你", "singer": "Dragon Pig/CNBALLER/ACLOUD WANG", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 3, "name": "他说", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 4, "name": "那些你很冒险的梦", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 5, "name": "可惜没如果", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 6, "name": "生生", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 7, "name": "修炼爱情", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 8, "name": "我还想她", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 9, "name": "江南", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 10, "name": "背对背拥抱", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 11, "name": "学不会", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 12, "name": "关键词", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 13, "name": "美人鱼", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 14, "name": "一千年以后", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"},
+  {"id": 15, "name": "不潮不用花钱", "singer": "林俊杰", "src": "./static/music/music-2.mp3", "coverSrc": "./static/images/cover.jpg"}
+]
