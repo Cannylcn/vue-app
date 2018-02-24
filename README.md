@@ -5,14 +5,14 @@
 # 安装MongoDB，进入安装目录bin文件夹
 > $ mongod
 
-## 克隆项目到本地，进入项目目录
-# 安装依赖
+# 克隆项目到本地，进入项目目录
+## 安装依赖
 > $ npm install
 
-# 开启后台服务
+## 开启后台服务
 > $ node app.js
 
-# 启动项目
+## 启动项目
 > $ npm start
 
 ## Build Setup
