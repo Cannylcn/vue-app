@@ -86,6 +86,7 @@
     ready () {
     },
     mounted () {
+      console.log('feature-2020-1 2次提交')
       this.$http({
         method: 'GET',
         url: './static/data/songmenu.json'
