@@ -170,6 +170,7 @@
 //      ])
     },
     mounted () {
+      console.log('feature-2020-1 1次提交')
 //      this.handler = () => {
 //        if (this.path === '/demo') {
 //          this.box = document.querySelector('#demo_list_box')
